@@ -1,3 +1,11 @@
+/**
+ * Author: Nicholas Power SD12
+ * Date: May 20, 2025
+ * Program description: This Java program simulates a movie theater seat reservation system 
+ * with both a command-line interface (CLI) and a graphical user interface (GUI) built using Swing.
+ */
+
+
 package com.movietheater;
 
 import java.util.Scanner;

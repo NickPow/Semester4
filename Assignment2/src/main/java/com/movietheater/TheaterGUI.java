@@ -27,7 +27,7 @@ public class TheaterGUI {
         frame.add(screenLabel, BorderLayout.NORTH);
 
         // Seat Grid with 7 visible rows (6 + 1 walkway) and 8 columns
-        seatPanel = new JPanel(new GridLayout(7, 8, 5, 5)); // 7 visual rows x 8 cols
+        seatPanel = new JPanel(new GridLayout(7, 8, 5, 5)); 
         updateSeatButtons();
 
         // Bottom panel with status + exit
@@ -60,7 +60,7 @@ public class TheaterGUI {
     private void updateSeatButtons() {
         seatPanel.removeAll();
 
-        for (int row = 0; row < 7; row++) { // 6 seat rows + 1 walkway row
+        for (int row = 0; row < 7; row++) { 
             for (int col = 0; col < 8; col++) {
 
                 // Row 3 = Walkway
