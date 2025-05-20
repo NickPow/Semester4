@@ -1,0 +1,12 @@
+# Maven build output
+/target/
+
+# IDE-specific files
+*.iml
+.idea/
+.vscode/
+
+# OS and temp files
+.DS_Store
+seating.txt
+*.class
